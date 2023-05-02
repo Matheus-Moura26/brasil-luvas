@@ -1,0 +1,25 @@
+{
+  "name": "brasil-luvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus-Moura26/brasil-luvas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheus-Moura26/brasil-luvas/issues"
+  },
+  "homepage": "https://github.com/Matheus-Moura26/brasil-luvas#readme",
+  "dependencies": {
+    "next": "^13.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
