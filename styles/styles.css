@@ -17,6 +17,11 @@ nav{
     letter-spacing: 4px;
     text-decoration: none;
     color: #000000;
+    transition: 0.3s;
+}
+.logo:hover{
+    opacity: 0.7;
+    color: #26328c;
 }
 .mobileMenu{
     display: none;
@@ -45,6 +50,7 @@ nav{
 }
 .navBarLink:hover{
     opacity: 0.7;
+    color: #26328c;
 }
 
 @media (max-width: 768px) {
@@ -85,7 +91,7 @@ nav{
     }
 
     .mobileMenuLine2.active{
-        opacity: 0;
+        
     }
 
     .mobileMenuLine3.active{
