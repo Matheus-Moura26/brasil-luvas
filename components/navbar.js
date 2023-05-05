@@ -7,8 +7,8 @@ function Navbar() {
     const [active, setActive] = useState(false);
 
     return (
-        <div>
-            <nav>
+        <div >
+            <nav className='.navbarParentContent'>
                 <Link className='logo' href="/">Brasil Luvas</Link>
                 <div onClick={() => setActive(!active)} className='mobileMenu'>
                     <div className={active? 'mobileMenuLine1 active' : 'mobileMenuLine1'}></div>
