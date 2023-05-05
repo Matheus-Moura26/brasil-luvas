@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-function Sobre() {
+function Produtos() {
     return (
         <div>
                 <header>
                     <nav>
-                        <Link className='logo' href="/">Brasil Luvas</Link>
+                    <Link className='logo' href="/">Brasil Luvas</Link>
                         <ul className='navList'>
                             <li>
                                 <Link className='navBarLink' href="/produtos">Produtos</Link>
@@ -21,10 +21,10 @@ function Sobre() {
                 </header>
 
                 <main>
-                    <h1>Sobre</h1>
+                    <h1>Produtos</h1>
                 </main>
         </div>
     )
 }
 
-export default Sobre
+export default Produtos
