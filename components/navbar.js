@@ -17,13 +17,13 @@ function Navbar() {
                 </div>
                 <ul className={active? 'navList active': 'navList'}>
                     <li>
-                        <Link className={active? 'navBarLink active' : 'navBarLink'} href="/produtos">Produtos</Link>
+                        <Link onClick={() => setActive(!active)} className={active? 'navBarLink active' : 'navBarLink'} href="/produtos">Produtos</Link>
                     </li>
                     <li>
-                        <Link className={active? 'navBarLink active' : 'navBarLink'}  href="/sobre">Sobre</Link>
+                        <Link onClick={() => setActive(!active)} className={active? 'navBarLink active' : 'navBarLink'}  href="/sobre">Sobre</Link>
                     </li>
                     <li>
-                        <Link className={active? 'navBarLink active' : 'navBarLink'}  href="/contatos">Contatos</Link>
+                        <Link onClick={() => setActive(!active)} className={active? 'navBarLink active' : 'navBarLink'}  href="/contatos">Contatos</Link>
                     </li>
                 </ul>
             </nav>
