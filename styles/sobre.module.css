@@ -26,7 +26,7 @@ flex-wrap: wrap;
 @media(max-width:768px){
 
     .sobreBox{
-        padding: 10px 45px;
+        padding: 10px 44px;
     }
     .sobreCardTextLeft{
         width: 80vw;
