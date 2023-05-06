@@ -24,13 +24,17 @@ flex-wrap: wrap;
 }
 
 @media(max-width:768px){
-    .sobreCardTextLeft{
-    width: 80vw;
-    padding: 20px 20px;
-}
 
-.sobreCardTextRight{
-    width: 100vw;
-    padding: 20px 20px;
-}
+    .sobreBox{
+        padding: 10px 45px;
+    }
+    .sobreCardTextLeft{
+        width: 80vw;
+        padding: 15px 15px;
+    }
+
+    .sobreCardTextRight{
+        width: 80vw;
+        padding: 15px 15px; 
+    }
 }
